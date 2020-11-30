@@ -6,3 +6,8 @@ alert ("Вы использовали " + message.length + " символа(ов
 //the other way of how many comment characters used and left.
 var message = prompt("Ваш комментарий: ");
 alert ("Вы использовали " + message.length + " символа(ов). " +  "Осталось " + (140 - message.length) + " символов.");
+//First letter upper case of an input variable
+var name = prompt("What's your name: ");
+var firstLetter = name.slice(0,1);
+var otherLetters = name.slice(1,100);
+alert (firstLetter.toUpperCase() + otherLetters.toLowerCase());
