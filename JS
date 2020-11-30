@@ -1,3 +1,8 @@
+//how many comment characters used and left.
 var message = prompt("Напишите ваше сообщение:");
 var full = 100;
 alert ("Вы использовали " + message.length + " символа(ов). " + "Осталось " + (full - message.length) + " символов.");
+
+//the other way of how many comment characters used and left.
+var message = prompt("Ваш комментарий: ");
+alert ("Вы использовали " + message.length + " символа(ов). " +  "Осталось " + (140 - message.length) + " символов.");
