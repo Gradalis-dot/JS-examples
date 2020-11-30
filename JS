@@ -1,0 +1,3 @@
+var message = prompt("Напишите ваше сообщение:");
+var full = 100;
+alert ("Вы использовали " + message.length + " символа(ов). " + "Осталось " + (full - message.length) + " символов.");
