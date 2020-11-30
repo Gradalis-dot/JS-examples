@@ -10,4 +10,5 @@ alert ("Вы использовали " + message.length + " символа(ов
 var name = prompt("What's your name: ");
 var firstLetter = name.slice(0,1);
 var otherLetters = name.slice(1,100);
-alert (firstLetter.toUpperCase() + otherLetters.toLowerCase());
+alert ("Hello " + firstLetter.toUpperCase() + otherLetters.toLowerCase());
+
